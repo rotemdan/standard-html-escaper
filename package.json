@@ -1,0 +1,34 @@
+{
+	"name": "standard-html-escaper",
+	"version": "0.1.0",
+	"description": "Fully standards-compliant HTML escape and unescape methods. Handles all named entities and numeric escape code patterns specified in the standard.",
+	"author": "Rotem Dan",
+	"license": "MIT",
+	"keywords": [
+		"HTML escaper",
+		"HTML unescaper"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rotemdan/standard-html-escaper"
+	},
+	"bugs": {
+		"url": "https://github.com/rotemdan/standard-html-escaper/issues"
+	},
+	"main": "./dist/Exports.js",
+	"type": "module",
+	"files": [
+		"dist",
+		"src",
+		"tsconfig.json",
+		"LICENSE.md",
+		"README.md"
+	],
+	"scripts": {
+		"test": "node dist/Test.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@types/node": "^22.8.6"
+	}
+}
